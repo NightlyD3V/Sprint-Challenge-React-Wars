@@ -6,7 +6,7 @@ function StarWarsCharacters(props) {
     return (
         <div>
             {props.StarWarsData.map((characters, index) => (
-                <StarWarsCard key={index} character={characters} />
+                <StarWarsCard key={index} character={characters} films={characters.films}/>
             ))}
         </div>
     )

@@ -1,0 +1,14 @@
+.card-container {
+    background-color: white;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.list-films {
+    display: flex;
+    flex-direction: column;
+}
