@@ -1,0 +1,20 @@
+.card-container {
+    background-color: white;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.list-films {
+    display: flex;
+    flex-direction: column;
+    list-style-type: lower-greek;
+    list-style-image: url(https://www.myaccountingcourse.com/images/check-mark-small.png);
+}
+ul li {
+    margin-bottom: 10px;
+}
